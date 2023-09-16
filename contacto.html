@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="shortcut icon" href="./images/salomon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+<meta name="title" content="Compra tu pagina web " />
+<meta name="description" 
+content="Hola, Busca aquí para comprar tu pagina a través de está descripción que verás cuando busques algo de mi temática en Google." />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.insyscom.com/" />
+<meta property="og:title" content="Compra tu pagina web " />
+<meta property="og:description" content="Hola, Busca aquí para comprar tu pagina a través de está descripción que verás cuando busques algo de mi temática en Google." />
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://www.insyscom.com/" />
+<meta property="twitter:title" content="Compra tu pagina web " />
+<meta property="twitter:description" 
+content="Hola, Busca aquí para comprar tu pagina a través de está descripción que verás cuando busques algo de mi temática en Google."/>
+
+</head>
+<body>
+      <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Compra tu <span> Pagina Web </span></h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="acercade.html" class="links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="contacto.html" class="links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="blog.html" class="links">Blog</a>
+                </li>
+                <li class="nav__items">
+                    <a href="productos.html" class="links">Productos</a>
+                </li>
+
+
+                <img src="./images/close.svg" class="nav__close" alt="">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img" alt="">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="titulo_principal">sistemas web y Pagina.</h1>
+            <p class="hero__apartado">Disfruta de las mejores pagina web, 
+                que ampliaran las espectativa de tu negocio, 
+                empresa o instituciòn de una manera eficiente,
+                 ademas cuento con variedades de sistema,
+                  que le ofrecera a tu empresa la oportinidad de llenar las espectativa
+                   de tus clientes al ofrecer tus productos.</p>
+            <a href="productos.html" class="boton_importante">Elige Ahora</a>
+        </section>
+    </header>
+    
+    <main class="contenido-principal contenedor ">
+        <h2 class="text-center">Contacto</h2>
+
+        <form class="formulario" action="datos.php" method="post">
+            <fieldset>
+                <legend>Tus Datos</legend>
+                
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input  id="nombre" type="text" placeholder="Tu Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto"  required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Tu Email" >
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Teléfono:</label>
+                    <input id="tel" type="tel" placeholder="Tu Teléfono" >
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Mensaje:</label>
+                    <textarea rows="10" cols="20"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>País</legend>
+
+                <div class="campo">
+                    <label for="pais">País</label>
+                    <select id="pais">
+                        <option value="" disabled>-- Seleccione -- </option>
+                        <option value="NI"> Nicaragua </option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Información Extra</legend>
+                
+                <div class="campo">
+                    <label for="cliente">Cliente</label>
+                    <input id="cliente" type="radio" name="tipo" value="cliente">
+                </div>
+
+                <div class="campo">
+                    <label for="categoria">Categoría de Interés</label>
+                    <input list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="paginaweb ">
+                        <option value="sistema">
+
+                    </datalist>
+                </div>
+
+            </fieldset>
+
+            <input class="btn" type="submit" value="Enviar Formulario" >
+        </form>
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorías</h3>
+
+                <nav class="footer-menu">
+                    <a href="#">Página web segura </a>
+                    <a href="#">Sistema web Contable</a>
+                    <a href="#">Sistema de Registro académico </a>
+                    <a href="#">Sistema de Facturación e inventario</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Misión, Visión y Valores</a>
+                    <a href="#">Términos del Servicio</a>
+                    <a href="#">Política de Privacidad</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en línea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
+
+        </div>
+       
+        <h3 class="footer__copyright">Derechos reservados &copy; Salomon Traña</h3>
+    </footer>
+
+</body>
+</html>
